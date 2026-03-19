@@ -1,0 +1,30 @@
+# このファイルを config.toml としてコピーし、あなたの環境に合わせて値を設定してください。
+# Copy this file to config.toml and set the values for your environment.
+
+[server]
+# ターミナルの名称 (ログファイル名などに使用)
+# Terminal name (used for log filenames, etc.)
+TERMINAL_NAME = "GR-Terminal"
+# Webターミナルの最大同時接続数 (0で無制限)
+max_concurrent_webapp_clients = 10
+
+[webapp]
+# アプリケーションにアクセスする際のURL。
+# The URL to access your application.
+ORIGIN = "http://localhost:5000"
+
+[paths]
+# UIテキスト定義ファイルのパス
+# Path to the UI text definition file.
+text_data_yaml = "setting/textdata.yaml"
+
+[telnet]
+# 接続先のTelnetサーバーのホスト名またはIPアドレス
+# Docker Compose環境では、サービス名を指定します (例: "sbbs")。
+# Hostname or IP address of the Telnet server to connect to.
+# In a Docker Compose environment, specify the service name (e.g., "sbbs").
+host = "sbbs"
+port = 23
+# 接続タイムアウト（秒）
+# Connection timeout in seconds.
+timeout = 300

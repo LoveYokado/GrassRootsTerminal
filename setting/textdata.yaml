@@ -1,0 +1,151 @@
+# ==============================================================================
+#
+# ==============================================================================
+# GrassRootsBBS テキストデータファイル
+#
+# このファイルは、アプリケーションで表示される全てのテキストを格納し、
+# 複数の言語・表示モードに対応します。
+#
+terminal_ui:
+  title:
+    mode_1: "GR-Terminal"
+    mode_2: "GR-Terminal"
+  footer_brand:
+    mode_1: "GR-Terminal"
+    mode_2: "GR-Terminal"
+  settings_popup:
+    title:
+      mode_1: "Settings"
+      mode_2: "設定"
+    theme_header:
+      mode_1: "Theme"
+      mode_2: "テーマ"
+    font_header:
+      mode_1: "Font"
+      mode_2: "フォント"
+    fontsize_header:
+      mode_1: "Font Size"
+      mode_2: "フォントサイズ"
+    fontsize_small:
+      mode_1: "Small"
+      mode_2: "小"
+    fontsize_medium:
+      mode_1: "Medium"
+      mode_2: "中"
+    fontsize_large:
+      mode_1: "Large"
+      mode_2: "大"
+    fontsize_xlarge:
+      mode_1: "Extra Large"
+      mode_2: "特大"
+    speed_header:
+      mode_1: "Speed"
+      mode_2: "通信速度"
+    effects_header:
+      mode_1: "Screen Effects"
+      mode_2: "画面効果"
+    effect_bezel:
+      mode_1: "Bezel"
+      mode_2: "ベゼル"
+    effect_glow:
+      mode_1: "Glow"
+      mode_2: "にじみ"
+    effect_scanline:
+      mode_1: "Scanline"
+      mode_2: "走査線"
+    general_settings_tab:
+      mode_1: "General"
+      mode_2: "一般設定"
+    font_settings_tab:
+      mode_1: "Font Settings"
+      mode_2: "フォント設定"
+    effect_settings_tab:
+      mode_1: "Effect Settings"
+      mode_2: "効果設定"
+    about_tab:
+      mode_1: "About"
+      mode_2: "このターミナルについて"
+    language_header:
+      mode_1: "Language"
+      mode_2: "言語設定"
+    language_en:
+      mode_1: "English"
+      mode_2: "English"
+    language_ja:
+      mode_1: "Japanese"
+      mode_2: "日本語"
+    language_change_confirm:
+      mode_1: "Changing language requires a page reload and will disconnect your session.\nAre you sure?"
+      mode_2: "言語設定を変更するとページが再読み込みされ、現在の接続が切断されます。\nよろしいですか？"
+    admin_tab:
+      mode_1: "Admin"
+      mode_2: "管理"
+    dip_switch_header:
+      mode_1: "DIP Switches"
+      mode_2: "DIPスイッチ"
+    pwa_install_header:
+      mode_1: "PWA Installation"
+      mode_2: "PWAインストール"
+    pwa_install_button:
+      mode_1: "Install App"
+      mode_2: "アプリをインストール"
+    pwa_install_description:
+      mode_1: "Install this terminal like an app for direct access from your desktop or home screen."
+      mode_2: "このターミナルをアプリのようにインストールして、デスクトップやホーム画面から直接アクセスできます。"
+    pwa_installed_description:
+      mode_1: "The app is already installed."
+      mode_2: "アプリは既にインストールされています。"
+  line_editor_popup:
+    title:
+      mode_1: "Line Editor"
+      mode_2: "一行エディタ"
+    insert_button:
+      mode_1: "Insert"
+      mode_2: "挿入"
+    cancel_button:
+      mode_1: "Cancel"
+      mode_2: "キャンセル"
+  multiline_editor_popup:
+    title:
+      mode_1: "Editor"
+      mode_2: "エディタ"
+    bold_button:
+      mode_1: "Bold"
+      mode_2: "太字"
+    blink_button:
+      mode_1: "Blink"
+      mode_2: "点滅"
+    underline_button:
+      mode_1: "Underline"
+      mode_2: "下線"
+    reverse_button:
+      mode_1: "Reverse"
+      mode_2: "反転"
+    reset_button:
+      mode_1: "Reset"
+      mode_2: "リセット"
+    insert_button:
+      mode_1: "Insert"
+      mode_2: "挿入"
+    cancel_button:
+      mode_1: "Cancel"
+      mode_2: "キャンセル"
+about_section:
+  special_thanks:
+    mode_1: "To all of you who haven't forgotten the feeling of those days."
+    mode_2: "あの頃の気持ちを忘れないみんなへ"
+  author:
+    mode_1: "LoveYokado"
+    mode_2: "LoveYokado"
+  github_link:
+    mode_1: "View on GitHub"
+    mode_2: "GitHubで見る"
+  github_url:
+    mode_1: "https://github.com/LoveYokado/GrassRootsTerminal"
+    mode_2: "https://github.com/LoveYokado/GrassRootsTerminal"
+  project_name:
+    mode_1: "GrassRootsTerminal"
+    mode_2: "GrassRootsTerminal"
+  concept:
+    mode_1: "Reviving the warmth of 2400bps in the era of 1Gbps."
+    mode_2: "1Gbpsの時代に、2400bpsの温かみをもう一度。"

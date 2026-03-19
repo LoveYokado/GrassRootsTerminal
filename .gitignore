@@ -1,0 +1,13 @@
+__pycache__/
+.trashbox/
+.venv/
+data/backups/*
+data/quarantine/*
+logs/
+setting/config.toml
+setting/trackingdata.txt
+static/manifest.json
+.env
+.vscode/
+docker-compose.yml
+data/sessions/
