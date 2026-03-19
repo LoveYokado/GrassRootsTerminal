@@ -1,5 +1,7 @@
 # GrassRootsTerminal
 
+![Main Screenshot](images/GrassRootsTerminal_Synchronet.jpg)
+
 GrassRootsTerminal は、1990 年代のパソコン通信(BBS)の懐かしい体験を現代の技術で再現する、Web ベースのターミナル風掲示板システムであるGrassRootsBBSのターミナル部分だけを切り出したゲートウェイです。
 
 ## プロジェクトの背景

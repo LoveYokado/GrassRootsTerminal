@@ -1,4 +1,4 @@
-# SPDX-FileCopyrightText: 2025-2026 mid.yuki(LoveYokado)
+# SPDX-FileCopyrightText: 2025-2026 LoveYokado
 # SPDX - License - Identifier: GPL - 2.0 - or - later
 /** 
  * ArrayBufferをBase64URLエンコードされた文字列に変換

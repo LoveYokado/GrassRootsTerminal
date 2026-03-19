@@ -1,4 +1,6 @@
-# GrassRootsBBS
+# GrassRootsTerminal
+
+![Main Screenshot](images/GrassRootsTerminal_Synchronet.jpg)
 
 `GrassRootsTerminal` is a web-based terminal gateway extracted from `GrassRootsBBS`, a system designed to recreate the nostalgic experience of 1990s PC communication (BBS) using modern technology. It functions as a standalone gateway dedicated to providing a classic terminal interface.
 
